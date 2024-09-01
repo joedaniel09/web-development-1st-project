@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-left: 60px;
+  align-items: center;
+  border: 0;
+}
+
+.TranquiliTea {
+  font-family: IBM plex mono, regular;
+  font-size: 23px;
+  font-weight: bold;
+  color: #000;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 14px;
+  padding-top: 12px;
+}
+
+.header__button {
+  background-color: rgba(39, 174, 96, 1);
+  color: #fff;
+  border-radius: 10px;
+  width: 160px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 90px;
+  border: 0;
+}
+
+
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+
+.text-block {
+  max-width: 50%;
+  margin-right: 20px;
+}
+
+.text-block h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.text-block p {
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.text-block button {
+  background-color: #28a745;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.text-block button:hover {
+  background-color: #218838;
+}
+
+
+.image-block {
+  max-width: 50%;
+}
+
+.image-block img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+} 
+
+
+@media screen and (max-width: 768px) {
+  .main-section {
+      flex-direction: column;
+  }
+
+  .text-block, .image-block {
+      max-width: 100%;
+      margin-right: 0;
+  }
+
+  .text-block {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+}
+
+.arrow-mark {
+  position: bottom-left corner;
+  bottom-left
+}
+
+.brand-info {  
+  font-family: Arial, sans-serif;  
+  max-width: 800px;  
+  margin: 0 auto;  
+}  
+  
+h1 {  
+  font-size: 2.5em;  
+  margin-bottom: 0;  
+}  
+  
+h2 {  
+  font-size: 1.2em;  
+  color: #666;  
+  margin-top: 0;  
+}  
+  
+.features {  
+  display: flex;
+  justify-content: space-between;  
+  margin-top: 30px;  
+}  
+  
+.feature {  
+  flex-basis: 22%;  
+}  
+  
+.icon {  
+  background-color: #ffa500;  
+  color: white;  
+  width: 30px;  
+  height: 30px;  
+  border-radius: 50%;  
+  display: inline-flex;  
+  align-items: center;  
+  justify-content: center;  
+  margin-bottom: 10px;  
+}
+  
+h3 {  
+  font-size: 1.1em;  
+  margin-bottom: 10px;  
+}  
+  
+p {  
+  font-size: 0.9em;  
+  color: #666;  
+}
