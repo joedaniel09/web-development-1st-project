@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea project</title>
-    <link rel="stylesheet" href="./website.css"/>
+    <link rel="stylesheet" href="./website.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
-      <div class="TranquiliTea">
-        <p>TranquiliTea</p>
+      <div>
+        <p class="TranquiliTea">TranquiliTea</p>
       </div>
 
       <nav>
@@ -24,63 +29,79 @@
         </ul>
       </nav>
 
-     
       <button class="header__button">Subscribe now</button>
-     
     </header>
-   <div class="main-section">
-    <div class="text-block">
-      <h1>Experience the Art of 
-        TranquiliTea</h1>
-        <p>Indulge in our handcrafted tea blends, meticulously curated for the ultimate
-          tea experience.
+    <section class="main-section background-image">
+      <h1 class="text-block">
+        Experience the Art of <br />
+        TranquiliTea
+      </h1>
+      <p class="text-block">
+        Indulge in our handcrafted tea blends, meticulously curated for the
+        ultimate <br />
+        tea experience.
+      </p>
+      <button class="button-image pos">
+        Subscribe now
+        <img
+          class="arrow-mark"
+          src="./Images/Vector (1).png"
+          alt="arrow-mark"
+        />
+      </button>
+    </section>
+
+    <!-- brand information -->
+    <section class="brand-info">
+      <h1>About our brand</h1>
+      <h2>Why choose our brand?</h2>
+
+      <div class="feature">
+        <div class="icon">1</div>
+        <div class="feature-svg">
+          <img src="./Images/icons8-guarantee 1.svg" alt="guarantee" />
+        </div>
+        <h3>Wide Range of Tea Blends</h3>
+        <p>
+          Discover a wide selection of premium tea blends, carefully crafted to
+          provide a unique and delightful tea experience.
         </p>
-        <button>Subscribe now</button>
-    </div>
-
-    <div class="container">
-      <img src="./teaimage" alt="qwomen drinking tea">
-    </div>
-    <div class="arrow-mark">
-      <img src="./Images/Vector (1).png" alt="arrow-mark">
-    </div>
-   </div>
-
-   <div class="brand-info">  
-    <h1>About our brand</h1>  
-    <h2>Why choose our brand?</h2>  
-     
-    <div class="features">  
-     <div class="feature">  
-      <div class="icon">1</div>
-   <div class="feature-svg"> <img src="./Images/icons8-guarantee 1.svg" alt="guarantee"> </div> 
-      <h3>Wide Range of Tea Blends</h3>  
-      <p>Discover a wide selection of premium tea blends, 
-    carefully crafted to provide a unique and delightful tea experience.</p>  
-     </div>  
-     <div class="feature">  
-      <div class="icon">2</div>
-      <div class="feature-svg"> <img src="./Images/icons8-good-quality 1.svg" alt="good Quality"> </div>
-      <h3>Premium Quality Teas</h3>
-      <p>We source only the finest teas from around the world.
-     Each blend is carefully crafted to deliver a rich and flavorful experience.</p>  
-     </div>  
-     <div class="feature">  
-      <div class="icon">3</div>
-   <div class="feature-svg"> <img src="./Images/icons8-trust 1.svg" alt="trust"> </div>
-      <h3>Sustainable Practices</h3>  
-      <p>We are committed to sustainability and ethical sourcing.
-     Our tea is grown using environmentally friendly practices, supporting local communities.</p>  
-     </div>  
-     <div class="feature">  
-      <div class="icon">4</div>
-   <div class="feature-svg"> <img src="./Images/Hot-beverage.svg" alt="hot-cup"></div>
-      <h3>Unforgettable Tea Experience</h3>  
-      <p>Indulge in a truly unforgettable tea experience with our premium blends.
-     Each sip will transport you to a world of flavor and relaxation.</p>  
-     </div>  
-    </div>  
-  </div>
-  
+      </div>
+      <div class="feature">
+        <div class="icon">2</div>
+        <div class="feature-svg">
+          <img src="./Images/icons8-good-quality 1.svg" alt="good Quality" />
+        </div>
+        <h3>Premium Quality Teas</h3>
+        <p>
+          We source only the finest teas from around the world. Each blend is
+          carefully crafted to deliver a rich and flavorful experience.
+        </p>
+      </div>
+      <div class="feature">
+        <div class="icon">3</div>
+        <div class="feature-svg">
+          <img src="./Images/icons8-trust 1.svg" alt="trust" />
+        </div>
+        <h3>Sustainable Practices</h3>
+        <p>
+          We are committed to sustainability and ethical sourcing. Our tea is
+          grown using environmentally friendly practices, supporting local
+          communities.
+        </p>
+      </div>
+      <div class="feature">
+        <div class="icon">4</div>
+        <div class="feature-svg">
+          <img src="./Images/Hot-beverage.svg" alt="hot-cup" />
+        </div>
+        <h3>Unforgettable Tea Experience</h3>
+        <p>
+          Indulge in a truly unforgettable tea experience with our premium
+          blends. Each sip will transport you to a world of flavor and
+          relaxation.
+        </p>
+      </div>
+    </section>
   </body>
 </html>
